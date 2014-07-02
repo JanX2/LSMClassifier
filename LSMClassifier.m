@@ -146,7 +146,7 @@ NSString * const LSMCategoryNameToIDMapKey = @"NameToIdMap";
 - (BOOL)processData:(NSData *)data
 		intoLSMText:(LSMTextRef)lsmText;
 {
-	return kLSMCErr;
+	return NO;
 }
 
 - (BOOL)processObject:(id)object
